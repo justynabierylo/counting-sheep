@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+#content{
+    background-color: blue;
+}
+.box1 {
+    width:150px;
+    height:150px;
+    display:inline-block; 
+    margin:5px;
+    background-color: white;
+}
+
+#loader {
+    background-color:white;
+    color:red;
+}
+#loader.active {
+    background-color:red;
+    color:white;
+}
