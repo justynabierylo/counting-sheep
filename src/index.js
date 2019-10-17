@@ -21,7 +21,7 @@ var scene = new ScrollMagic.Scene({triggerElement: ".dynamicContent #loader", tr
                             console.log("loading new items");
                         }
                         // simulate ajax call to add content using the function below
-                        setTimeout(addBoxes, 1000, 9);
+                        setTimeout(addBoxes, 1000, 6);
                     }
                 });
 
